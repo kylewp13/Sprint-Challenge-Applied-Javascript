@@ -33,10 +33,6 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
       articles.appendChild(newCard);
     });
   }
-  // response.data.message.forEach(item => {
-  //   const newDog = DogCard(item);
-  //   entryPoint.appendChild(newDog);
-  // });
 })
 .catch(err => {
   console.log("The data was not returned", err);

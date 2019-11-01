@@ -26,7 +26,7 @@ function Header(){
   //Set up Text Content
   date.textContent = 'November 1, 2019';
   title.textContent = 'Lambda Times';
-  temp.textContent = '98°';
+  temp.textContent = '76°';
   
   //Append the elements to parent
   header.appendChild(date);
